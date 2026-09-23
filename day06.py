@@ -1,7 +1,7 @@
 # # #append()
 # l = ['a', 'b', 'c']
-# l.append(34)
-# l.append(34.3)
+# l.append(34)       
+# l.append(34.3)   
 # l.append(4+3j)
 # l.append(True)
 # l.append(None)
@@ -15,21 +15,21 @@
 
 # # extend() 
 # l = ['a', 'b', 'c']
-# l.extend(34)
-# l.extend(34.3)
-# l.extend(4+3j)
-# l.extend(True)
-# l.extend(None)
+# # l.extend(34)
+# # l.extend(34.3) 
+# # l.extend(4+3j)
+# # l.extend(True)
+# # l.extend(None)
 # l.extend([0,1,2])
 # l.extend((3,4,5))
 # l.extend({6,7,8})
 # l.extend({9:'a', 10:'b', 11:'c'})
 # l.extend('rakesh')
 # l.extend(range(12,15))
-# print(l)
+# print(l)  
 
-# # insert() 
-# #positive index
+# insert() 
+#positive index
 # l = ['a', 'b', 'c', 'd']
 # l.insert(2, 'hi')
 # print(l)
@@ -42,28 +42,28 @@
 # l.insert(-100, 'hi')
 # print(l)
 
-# #pop()
+#pop()
 # l = [1, 2, 3, 4, 5]
 # a = l.pop()
 # print(a, l)
 # b = l.pop(2)
 # print(b, l)
-# c = l.pop(7)
+# # c = l.pop(7)
 # del l[0]
 # print(l)
 
-# # remove()
+# #remove()
 # l = [1, 2, 3, 4]
 # a  = l.remove(3)
 # print(a, l)
-# print(l.remove(5))
+# # print(l.remove(5))
 
-# # clear()  
+# # # clear()  
 # l = [1, 2, 3, 4, 5]
 # l.clear()
-# print(l)
+# print(l)  
 
-# # reverse() 
+# # # reverse() 
 # l = [1, 2, 3, 4, 5]
 # print(id(l))
 # a = l.reverse()
@@ -85,8 +85,8 @@
 # l = [1, 2, 1, 4, 6, 1, 7]
 # print(l.index(1))
 # print(l.index(1, 3))
-# print(l.index(1, 3, 5))
-# print(l.index(9))
+# # print(l.index(1, 3, 5))
+# # print(l.index(9))
 
 # # count() 
 # l = [1, 2, 1, 4, 1, 6, 7, 1]
@@ -101,7 +101,7 @@
 # # print(l.index(1, 3, 5))
 # # print(l.index(9))
 
-# # count() 
+# #  count()
 # l = (1, 2, 1, 4, 1, 6, 7, 1)
 # print(l.count(1))
 # print(l.count(9))
