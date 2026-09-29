@@ -1,17 +1,17 @@
 # # #append()
-# l = ['a', 'b', 'c']
-# l.append(34)       
-# l.append(34.3)   
-# l.append(4+3j)
-# l.append(True)
-# l.append(None)
-# l.append([0,1,2])
-# l.append((3,4,5))
-# l.append({6,7,8})
-# l.append({9:'a', 10:'b', 11:'c'})
-# l.append('rakesh')
-# l.append(range(12,15))
-# print(l)
+l = ['a', 'b', 'c']
+l.append(34)       
+l.append(34.3)   
+l.append(4+3j)
+l.append(True)
+l.append(None)
+l.append([0,1,2])
+l.append((3,4,5))
+l.append({6,7,8})
+l.append({9:'a', 10:'b', 11:'c'})
+l.append('rakesh')
+l.append(range(12,15))
+print(l)#
 
 # # extend() 
 # l = ['a', 'b', 'c']
